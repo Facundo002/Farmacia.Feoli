@@ -1,0 +1,874 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: initial, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background: #bbffda;
+}
+
+header {
+  background: url(../IMG/Fondos-logos/Fondo.jpg) no-repeat center center/cover;
+  width: 100%;
+  display: flex;
+  max-height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+
+.logo__imagen {
+  padding-left: 10px;
+  width: 100px;
+}
+
+.nav__menu ul {
+  display: flex;
+}
+
+.nav__menu ul li {
+  padding: 4px;
+}
+
+.nav__menu ul li a {
+  color: #04e085;
+  font-family: initial;
+  font-size: 10px;
+}
+
+.hr {
+  background: #34373d;
+  margin: 2px 0;
+  width: 100%;
+  height: 2px;
+}
+
+.mitad {
+  display: block;
+  background: #002a7c;
+  text-align: center;
+  padding: 5px 0px;
+}
+
+.mitad__titulo {
+  font-family: initial;
+  font-size: 15px;
+  color: #04e085;
+}
+
+.mitad__contacto {
+  font-family: initial;
+  font-size: 10px;
+  color: #04e085;
+}
+
+/* Slaider ofertas */
+.main__ofertas__slaider {
+  background: url(../IMG/Fondos-logos/portada_ofertas-mes-1024x476.jpg)
+    no-repeat center center/cover;
+  width: 90%;
+  margin: auto;
+  height: 100px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-end;
+}
+
+.btn {
+  padding: 2px;
+  background: #000000;
+  color: #04e085;
+  border: 1px solid white;
+  font-size: 10px;
+  font-family: initial;
+  max-height: 15px;
+}
+
+/* Main Obras y laboratorios */
+.main__obras__sociales {
+  padding-bottom: 10px;
+}
+
+.main__obras__sociales__contenedor {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.main__obras__sociales__contenedor h3 {
+  font-size: 30px;
+  color: #04e085;
+  font-family: initial;
+}
+
+.main__obras__sociales__texto {
+  font-size: 20px;
+  font-family: initial;
+}
+
+.main__obras__sociales_img {
+  width: 100%;
+}
+
+.main__laboratorios__img {
+  width: 100%;
+}
+
+.main__laboratorios__contenedor {
+  display: inline-block;
+  text-align: center;
+}
+
+.main__laboratorios__contenedor h3 {
+  font-size: 30px;
+  color: #04e085;
+  font-family: initial;
+}
+
+.main__laboratorios__texto {
+  font-size: 20px;
+  font-family: initial;
+}
+
+/* Formas de cuidado */
+.main__formas__de__cuidado {
+  width: 80%;
+  padding: 10px 0;
+  margin: auto;
+}
+
+.main__formas__de__cuidado__section {
+  font-family: initial;
+  margin: 5px;
+}
+
+.main__formas__de__cuidado__contenedor {
+  display: grid;
+  grid-template-columns: repeat(4);
+  grid-gap: 50px;
+}
+
+.cuidados__img__1 {
+  background: url(../img/Cuidados/cara.png) center/cover;
+  width: 100%;
+  height: 100px;
+}
+
+.cuidados__img__2 {
+  background: url(../img/Cuidados/pelo.jpg) center/cover;
+  width: 100%;
+  height: 100px;
+}
+
+.cuidados__img__3 {
+  background: url(../img/Cuidados/embarazo.jpg) center/cover;
+  width: 100%;
+  height: 100px;
+}
+
+.cuidados__img__4 {
+  background: url(../img/Cuidados/covid.jpg) center/cover;
+  width: 100%;
+  height: 100px;
+}
+
+.cuidados {
+  box-shadow: 0 1px 6px 1px #04e085;
+  background: #002a7c;
+}
+
+.cuidados__principal {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+}
+
+.cuidados__secundario {
+  padding: 15px;
+  text-align: center;
+}
+
+.cuidados__secundario h2 {
+  margin-bottom: 20px;
+  color: #04e085;
+  border-bottom: 2px solid #04e085;
+}
+
+.cuidados__secundario p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #04e085;
+}
+
+.cuidados__secundario .cuidados__link {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  background: #000000;
+  width: 50%;
+  margin: auto;
+  color: #04e085;
+  font-family: initial;
+  font-size: 15px;
+}
+
+/* nosotros */
+.contenedor__nosotros {
+  background: #1e3563;
+  margin-bottom: 5px;
+  h1 {
+    color: #00c070;
+    background-color: #a0e5d6;
+    text-align: center;
+  }
+  p {
+    font-family: initial;
+    font-size: 30px;
+    margin: 5px 0;
+    text-align: center;
+  }
+
+  .nosotros__primaria__img {
+    float: right;
+    width: 100%;
+    height: 200px;
+    margin: 10px 0;
+    border-radius: 10%;
+  }
+  .nosotros__final__img {
+    width: 100%;
+    height: 200px;
+    margin: 10px 0;
+    border-radius: 10%;
+  }
+}
+/*contactanos*/
+form {
+  width: 70%;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 7px;
+
+  h2 {
+    color: #ffff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    border: none;
+  }
+  textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+  }
+  #boton {
+    background: #31384a;
+    color: #ffff;
+    padding: 20px;
+  }
+
+  #boton:hover {
+    cursor: pointer;
+  }
+}
+
+/*Ofertas*/
+.main__ofertas {
+  background-color: #ffff;
+  .ofertas__galeria {
+    display: flex;
+  }
+  img {
+    height: 100px;
+    margin: 5px 5px;
+    border: 1px solid #000000;
+    width: 80%;
+  }
+  h2 {
+    font-size: 25px;
+    color: #002a7c;
+    margin: 5px 0;
+    text-align: center;
+    background-color: #04e085;
+  }
+}
+
+/*Servicios*/
+.precion {
+  background: #c7a6a6;
+  height: 250px;
+  margin-bottom: 5px;
+  display: flex;
+
+  img {
+    width: 150px;
+    height: 200px;
+    border-radius: 30%;
+    margin: auto;
+  }
+  h3 {
+    color: #04e085;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    border-bottom: 2px solid #002a7c;
+  }
+
+  p {
+    color: #002a7c;
+    font-size: 15px;
+    margin-left: 5px;
+  }
+}
+.inyectables {
+  background-color: #c7a6a6;
+  height: 500px;
+  margin-top: 5px;
+
+  img {
+    width: 150px;
+    height: 200px;
+    border-radius: 30%;
+    margin: auto;
+  }
+  h3 {
+    color: #04e085;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    border-bottom: 2px solid #002a7c;
+  }
+
+  p {
+    color: #002a7c;
+    font-size: 15px;
+    margin-left: 5px;
+  }
+}
+
+.inyectables {
+  display: flex;
+  margin-bottom: 5px;
+  height: 250px;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  background: #34373d;
+  max-height: 200px;
+  display: flex;
+}
+
+.footer__principal h2 {
+  font-size: 25px;
+  font-family: initial;
+  padding: 5px 0px 5px 15px;
+  color: #04e085;
+}
+
+.footer__texto {
+  font-size: 15px;
+  font-family: initial;
+  padding: 5px 0px 5px 30px;
+  color: #04e085;
+}
+
+.footer__contactos {
+  margin: auto;
+}
+
+footer ul li {
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+  body {
+    background: #bbffda;
+    width: 80%;
+    margin: auto;
+  }
+
+  .nav__menu ul {
+    display: flex;
+  }
+
+  /* Navegador */
+  header {
+    background: url(../img/Fondos-logos/Fondo.jpg) no-repeat center center/cover;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    max-height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    position: relative;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo__imagen {
+    padding-left: 20px;
+    width: 300px;
+  }
+
+  .nav__menu ul {
+    display: flex;
+  }
+
+  .nav__menu ul li {
+    padding: 15px;
+  }
+
+  .nav__menu ul li a {
+    color: #04e085;
+    font-family: initial;
+    font-size: 20px;
+  }
+
+  .nav__menu ul li a:hover {
+    border-bottom: 3px solid #04e085;
+  }
+
+  .hr {
+    background: #34373d;
+    margin: 5px 0;
+    width: 100%;
+    height: 2px;
+  }
+
+  /* Main slider ofertas */
+  .main__ofertas__slaider {
+    background: url(../IMG/Fondos-logos/portada_ofertas-mes-1024x476.jpg)
+      no-repeat center center/cover;
+    width: 90%;
+    margin: auto;
+    height: 400px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-end;
+  }
+
+  .btn {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px;
+    background: #000000;
+    color: #04e085;
+    border: 1px solid white;
+    font-size: 20px;
+    font-family: initial;
+    max-height: 30px;
+  }
+  /*Mitad*/
+  .mitad {
+    display: block;
+    background: #002a7c;
+    text-align: center;
+    padding: 5px 0px;
+  }
+
+  .mitad__titulo {
+    font-family: initial;
+    font-size: 20px;
+    color: #04e085;
+  }
+
+  .mitad__contacto {
+    font-family: initial;
+    font-size: 20px;
+    color: #04e085;
+  }
+
+  /* Main Obras y laboratorios */
+  .main__obras__sociales {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+  }
+
+  .main__obras__sociales__contenedor {
+    display: inline-block;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+
+  .main__obras__sociales__contenedor h3 {
+    font-size: 60px;
+    color: #04e085;
+    font-family: initial;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .main__obras__sociales__texto {
+    font-size: 30px;
+    font-family: initial;
+    margin: 5px;
+  }
+
+  .main__laboratorios {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .main__laboratorios__contenedor {
+    display: inline-block;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+
+  .main__laboratorios__contenedor h3 {
+    font-size: 60px;
+    color: #04e085;
+    font-family: initial;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .main__laboratorios__texto {
+    font-size: 30px;
+    font-family: initial;
+  }
+
+  /* Formas de cuidado */
+  .main__formas__de__cuidado {
+    width: 73%;
+    margin: 0;
+  }
+
+  .main__formas__de__cuidado__section {
+    font-family: initial;
+    display: flex;
+    min-height: 48vh;
+    padding-bottom: 10px;
+  }
+
+  .main__formas__de__cuidado__contenedor {
+    display: grid;
+    grid-template-columns: repeat(4, 33%);
+    grid-gap: 15px;
+    width: 100%;
+  }
+
+  .cuidados__img__1 {
+    background: url(../IMG/Cuidados/cara.png) center center/cover;
+    width: 100%;
+    height: 200px;
+  }
+
+  .cuidados__img__2 {
+    background: url(../IMG/Cuidados/pelo.jpg) center center/cover;
+    width: 100%;
+    height: 200px;
+  }
+
+  .cuidados__img__3 {
+    background: url(../img/cuidados/embarazo.jpg) center center/cover;
+    width: 100%;
+    height: 200px;
+  }
+
+  .cuidados__img__4 {
+    background: url(../IMG/Cuidados/covid.jpg) center center/cover;
+    width: 100%;
+    height: 200px;
+  }
+
+  .cuidados {
+    box-shadow: 0 1px 6px 1px #04e085;
+    background: #002a7c;
+  }
+
+  .cuidados__principal {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .cuidados__secundario {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .cuidados__secundario h2 {
+    margin-bottom: 15px;
+    color: #04e085;
+    border-bottom: 2px solid #04e085;
+  }
+
+  .cuidados__secundario p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #04e085;
+    font-size: 20px;
+  }
+
+  .cuidados__secundario .cuidados__link {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background: #000000;
+    width: 50%;
+    margin: auto;
+    color: #04e085;
+    font-family: initial;
+    font-size: 20px;
+  }
+  /*contactanos*/
+  form {
+    width: 70%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+
+    h2 {
+      color: #ffff;
+      text-align: center;
+      margin: 0;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 7px;
+      box-sizing: border-box;
+      border: none;
+    }
+    textarea {
+      min-height: 100px;
+      max-height: 200px;
+      max-width: 100%;
+    }
+    #boton {
+      background: #31384a;
+      color: #ffff;
+      padding: 20px;
+    }
+
+    #boton:hover {
+      cursor: pointer;
+    }
+  }
+
+  /* nosotros */
+  .contenedor__principal__nosotros {
+    background: url(../img/fondos-logos/fondoo.jpg);
+  }
+  .contenedor__nosotros {
+    width: 50%;
+    margin: auto;
+    background: #1e3563;
+
+    margin-bottom: 5px;
+    h1 {
+      color: #00c070;
+      background-color: #a0e5d6;
+      padding: 3px 0px;
+    }
+    p {
+      font-family: initial;
+      font-size: 30px;
+      margin: 10px 0;
+    }
+
+    .nosotros__primaria__img {
+      float: right;
+      width: 300px;
+      height: 200px;
+      margin: 10px 50px 0px 10px;
+      border-radius: 30%;
+    }
+    .nosotros__final__img {
+      height: 300px;
+      width: 100%;
+      border-radius: 10%;
+    }
+  }
+
+  /*Ofertas*/
+  .main__ofertas {
+    background-color: #ffff;
+    .ofertas__galeria {
+      display: flex;
+      width: 80%;
+      margin: auto;
+    }
+    img {
+      height: 250px;
+      margin: 5px 5px;
+      border: 1px solid #000000;
+      width: 80%;
+    }
+    h2 {
+      font-size: 30px;
+      color: #002a7c;
+      margin: 5px 0;
+      text-align: center;
+      background-color: #04e085;
+    }
+  }
+  /*Servicios*/
+  .precion {
+    background: #c7a6a6;
+    height: 450px;
+    margin-bottom: 5px;
+    display: flex;
+
+    img {
+      width: 600px;
+      height: 450px;
+      border-radius: 30%;
+    }
+    h3 {
+      color: #04e085;
+      text-align: center;
+      font-size: 40px;
+      margin-top: 10px;
+      border-bottom: 2px solid #002a7c;
+    }
+    p {
+      text-align: center;
+      color: #002a7c;
+      font-size: 30px;
+      margin: 20px 50px;
+    }
+  }
+  .inyectables {
+    background-color: #c7a6a6;
+    height: 500px;
+    margin-top: 5px;
+  }
+
+  .inyectables {
+    display: flex;
+    margin-bottom: 5px;
+    height: 450px;
+
+    img {
+      width: 600px;
+      height: 450px;
+      border-radius: 30%;
+    }
+    h3 {
+      color: #04e085;
+      text-align: center;
+      font-size: 40px;
+      margin-top: 10px;
+      border-bottom: 2px solid #002a7c;
+    }
+    p {
+      text-align: center;
+      color: #002a7c;
+      font-size: 30px;
+      margin: 20px 50px;
+    }
+  }
+  /* Footer */
+  footer {
+    width: 100%;
+    background: #34373d;
+    max-height: 200px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer__principal h2 {
+    font-size: 35px;
+    font-family: initial;
+    padding: 5px 0px 5px 15px;
+    color: #04e085;
+  }
+
+  .footer__texto {
+    font-size: 20px;
+    font-family: initial;
+    padding: 5px 0px 5px 30px;
+    color: #04e085;
+  }
+
+  .footer__contactos {
+    margin: 72px 0;
+  }
+
+  footer ul li {
+    display: inline;
+    padding: 5px 30px 5px 0px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

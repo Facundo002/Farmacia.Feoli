@@ -399,19 +399,10 @@ form {
 /*Ofertas*/
 .main__ofertas {
   background-color: #ffff;
-  ul {
-    list-style: none;
-  }
-  .ofertas__galeria {
-    display: flex;
-    width: 80%;
-    margin: auto;
-  }
   img {
     height: 250px;
-    margin: 5px 5px;
     border: 1px solid #000000;
-    width: 80%;
+    width: 100%;
   }
   h2 {
     font-size: 30px;
@@ -523,6 +514,7 @@ footer ul li {
     img {
       width: 300px;
       height: 60px;
+      margin-left: 2px;
     }
   }
 
@@ -832,28 +824,20 @@ footer ul li {
   /*Ofertas*/
   .main__ofertas {
     background-color: white;
-    ul {
-      list-style: none;
+    img {
+      height: 100px;
+      width: 100%;
+      margin: 0px;
+    }
+  h2 {
+      font-size: 25px;
+      color: #002a7c;
+      margin: 5px 0;
+      text-align: center;
+      background-color: #04e085;
     }
   }
-  .main__ofertas .ofertas__galeria {
-    display: flex;
-    padding: 0;
-    margin: auto;
-  }
-  .main__ofertas img {
-    height: 100px;
-    margin: 5px 5px;
-    border: 1px solid #000000;
-    width: 80%;
-  }
-  .main__ofertas h2 {
-    font-size: 25px;
-    color: #002a7c;
-    margin: 5px 0;
-    text-align: center;
-    background-color: #04e085;
-  }
+
 
   /*Servicios*/
   .precion {
